@@ -4,24 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Odin CSS 1st Project</title>
 </head>
 <body>
-    <header>
-        <nav>
-            <span>LOGO</span>
-            <ul>
-                <li>header link one</li>
-                <li>header link two</li>
-                <li>header link three</li>
+    <header class="heroSection">
+        <nav class="navbar">
+            <span class="logo">LOGO</span>
+            <ul class="linkList">
+                <li ><a class="link" href ="#">header link one</a></li>
+                <li ><a class="link" href ="#">header link two</a></li>
+                <li ><a class="link" href ="#">header link three</a></li>
             </ul>
         </nav>
-        <div>
-            <h1>This website is awesome</h1>
-            <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
-            <button>Sign up</button>
-        </div>
-        <img src="https://img.freepik.com/free-photo/abstract-grunge-decorative-relief-navy-blue-stucco-wall-texture-wide-angle-rough-colored-background_1258-28311.jpg?w=2000" alt="Background image">
+        <div class="hero">
+            <div class="heroText">
+                <h1 class="heroHeading">This website is awesome</h1>
+                <p class="heroPara">This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
+                <button class="button">Sign up</button>
+            </div>
+            <img class = "heroImg" src="https://img.freepik.com/free-photo/abstract-grunge-decorative-relief-navy-blue-stucco-wall-texture-wide-angle-rough-colored-background_1258-28311.jpg?w=2000" alt="Background image">
+    </div>
     </header>
     <main>
         <section>
@@ -60,7 +63,7 @@
                 </div>
                 <div>
                     <p>Sign up for our product by clicking that button right over there!</p>
-                    <button>Sign up</button>
+                    <button class="button">Sign up</button>
                 </div>
             </div>
         </section>
